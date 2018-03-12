@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a51d2b73-f427-4ef1-8c5c-cfd196c66654">
+  <name>Киташов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Киташов</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0124e716-7f43-4049-9635-f7f0e97122ca"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="65da1332-032a-49fc-8cac-653e0da914fe"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b4be2455-5d16-43cd-95e4-1d1f48fbcc5e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="dd0b23d4-be12-4e68-b0c9-2f51f9da0d4c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="dafb619a-e063-4b90-8f1d-d539e0b1316d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4c6f1f07-d333-4f76-a67a-62d6bb8dd985"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version>0.1</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="13205ee3-fadd-412d-ab90-9c744aa50964">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <enums>Enum.МетодыСписания</enums>
+  <enums>Enum.ТипыТовара</enums>
+  <reports>Report.ОстаткиТовараНаСкладахНаДату</reports>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Партии</accumulationRegisters>
+</mdclass:Configuration>

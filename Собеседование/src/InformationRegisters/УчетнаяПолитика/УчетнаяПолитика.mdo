@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc805a4a-f16f-458c-830f-1c97c5dd73ef">
+  <producedTypes>
+    <selectionType typeId="8c54b1f5-6652-4c7d-abc7-87d7938c3fd2" valueTypeId="c7fa054f-dad8-4e27-92bc-e141d5f08ade"/>
+    <listType typeId="12903395-9eab-4e01-9864-0f4c92b6fbb1" valueTypeId="b43c7706-df02-4b98-b667-3102556a6306"/>
+    <managerType typeId="01eb5fa3-1e10-452d-b104-5d26458047ce" valueTypeId="78ed8533-955a-41b7-beea-c30e2d095c41"/>
+    <recordSetType typeId="82d4189b-adc1-4b54-bd28-553f9de96595" valueTypeId="7ceb026d-e957-4ed8-a9a4-b5b0367ee68b"/>
+    <recordKeyType typeId="791af3f5-d14b-4183-9cdb-00f6426d406e" valueTypeId="a034553f-28d5-4551-9523-94b6b490dc9a"/>
+    <recordType typeId="991eb0e8-eccc-4467-9f75-b56e39c39982" valueTypeId="e044cd59-64c7-4ce9-a773-e86f8207b496"/>
+    <recordManagerType typeId="519eeabf-c9f8-4057-b494-ae05ac28fc22" valueTypeId="9d37f886-7a9a-4428-b1a6-ad7e0c8aa210"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика организации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e5e36c7-740c-4305-ae5a-9712335c7bc9">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.МетодыСписания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
